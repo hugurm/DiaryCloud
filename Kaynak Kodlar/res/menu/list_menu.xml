@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lock"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_lock_open_24"
+        android:title="Diary Lock" />
+    <item
+        android:id="@+id/convert_all_to_pdf"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+        android:title="Convert All To Pdf" />
+    <item
+        android:id="@+id/show_on_map"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Show on Map" />
+</menu>

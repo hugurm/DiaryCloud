@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="feelings">
+        <item>0x1F60D</item>
+        <item>0x1F60E</item>
+        <item>0x1F61B</item>
+        <item>0x1F604</item>
+        <item>0x1F60A</item>
+        <item>0x1F610</item>
+        <item>0x1F634</item>
+        <item>0x1F61E</item>
+        <item>0x1F622</item>
+        <item>0x1F62D</item>
+        <item>0x1F621</item>
+    </integer-array>
+</resources>

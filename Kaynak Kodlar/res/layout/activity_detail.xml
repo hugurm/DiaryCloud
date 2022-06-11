@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMemoryActivity">
+
+    <ImageView
+        android:id="@+id/detail_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/default_diary" />
+
+    <TextView
+        android:id="@+id/detail_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:maxEms="14"
+        android:maxLines="3"
+        android:text="@string/location"
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/detail_share_button"
+        app:layout_constraintTop_toBottomOf="@+id/detail_cover" />
+
+    <TextView
+        android:id="@+id/detail_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/date"
+        app:layout_constraintEnd_toEndOf="@+id/detail_location"
+        app:layout_constraintTop_toBottomOf="@+id/detail_location" />
+
+    <TextView
+        android:id="@+id/detail_feeling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/feeling"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/detail_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/detail_location" />
+
+    <ScrollView
+        android:id="@+id/detail_main_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/detail_edit_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail_location">
+
+        <TextView
+            android:id="@+id/detail_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="16"
+            android:text="@string/main_text" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/detail_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_button"
+        app:layout_constraintBottom_toBottomOf="@+id/detail_edit_button"
+        app:layout_constraintEnd_toStartOf="@+id/detail_edit_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/detail_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/detail_share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_button"
+        app:layout_constraintBottom_toBottomOf="@+id/detail_edit_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/detail_edit_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

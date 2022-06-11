@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DiaryCloud</string>
+    <string name="list_memories_button">LIST MEMORIES</string>
+    <string name="add_button">ADD</string>
+    <string name="delete_button">DELETE</string>
+    <string name="edit_button">EDIT</string>
+    <string name="share_button">SHARE</string>
+    <string name="default_emoji">:)</string>
+    <string name="add_symbol">+</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="memory_title">Memory Title</string>
+    <string name="feeling">Feeling</string>
+    <string name="main_text">Memory</string>
+    <string name="location">Location</string>
+    <string name="date">Date</string>
+    <string name="add_media">ADD MEDIA</string>
+    <string name="see_location">SEE LOCATION</string>
+    <string name="current_location">GET CURRENT LOCATION</string>
+    <string name="save_button">SAVE</string>
+    <string name="edit_media">EDIT MEDIA</string>
+    <string name="enter_button">ENTER</string>
+    <string name="set_button">SET</string>
+    <string name="password_message">Enter Your Password</string>
+    <string name="password_set_message">Create a New Password</string>
+</resources>
